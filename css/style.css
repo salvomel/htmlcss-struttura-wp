@@ -7,7 +7,7 @@
 
 /* COMMON */
 .container {
-    width: 75%;
+    width: 80%;
     margin: auto;
 }
 
@@ -20,12 +20,12 @@
 .presentation {
     height: 400px;
     background-color: lightgreen;
-    margin: 30px 0;
+    margin-top: 20px;
 }
 
-/* MAIN */
-main {
-    background-color: steelblue;
+/* Structure */
+.col {
+    float: left;
 }
 
 .clearfix::after {
@@ -33,33 +33,38 @@ main {
     display: table;
     clear: both;
 }
-.col {
-    float: left;
-    margin-bottom: 2%;
+
+/* MAIN */
+main {
+    background-color: steelblue;
+    margin: 20px 0;
+    padding-bottom: 5px;
+}
+
+.title {
+    height: 70px;
+    background-color: lightblue;
 }
 
 .content-left, .content-right {
     width: 23%;
-    height: 500px;
+    height: 600px;
     background-color: lightblue;
 }
 
 .content-center {
     width: 50%;
     margin: 0 2%;
-    height: 500px;
+    height: 600px;
     background-color: lightblue;
 }
 
-.title {
-    height: 70px;
-    background-color: lightblue;
-    margin-bottom: 20px;
+.main-content {
+    margin: 20px 0;
 }
 
 /* FOOTER */
 footer {
     height: 50px;
     background-color: purple;
-    margin-top: 10px;
 }
